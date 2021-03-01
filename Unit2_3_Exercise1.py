@@ -17,7 +17,8 @@ while iteration < 5:
                 Iteration 1 ; count is 24
                 Iteration 2 ; count is 36
                 Iteration 3 ; count is 48
-                Iteration 4 ; count is 60
+                Iteration 4 ; count is 60"""
+            #-------------------------------------
                 #WHY? 
                 """since iteration < 5 we get 5 iterations.
                    in the first iteration, count(variable) counts the no. of 
@@ -27,7 +28,7 @@ while iteration < 5:
                    now it adds 12 to count (count[value 12] + 12 = 24).
                    and these iterations go on ... until 4th iteration."""
                    
-----------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------------------------------------------------
 
 #Example 2: Initilization Inside the loop
 """
@@ -44,7 +45,7 @@ while iteration < 5:
               Iteration 2 ; count is 12
               Iteration 3 ; count is 0
               Iteration 4 ; count is 12"""
-            -----------------------------------
+           #-----------------------------------
             #WHY?
             """ here initilization is inside the loop, so 
             for every iteration, count gets updated to zero(0). 
