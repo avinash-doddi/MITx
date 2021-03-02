@@ -1,4 +1,4 @@
-#MIT 6.00.1x Mid-Term Exam
+#Mid-Term Exam
 
 
 """Write a Python function, twoQuadratics, that takes in two sets of coefficients and x-values and prints the sum of the results of evaluating two quadratic equations. It does not do anything else. That is, you should evaluate and print the result of the following equation: a1∗x21+b1∗x1+c1+a2∗x22+b2∗x2+c2
