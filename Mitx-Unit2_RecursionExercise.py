@@ -18,6 +18,12 @@ def iterPower(base, exp):
           result *= base
           exp -= 1
     return result
+""" here we can also use for-loop rather than while-loop"""
+#     result = 1
+#     for i in range(exp-1):
+#         result *= base
+#     return result
+ """ Well, this is quite understandable"""
 
 print(iterPower(int(input("base : ")),int(input('exp : '))))
    
