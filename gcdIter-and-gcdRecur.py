@@ -31,7 +31,7 @@ def gcdIter(a, b):
           testval = testval - 1
 
     return testval
-print(getIter((int(input("Enter a : "))),(int(input("Enter b :"))))
+print(gcdIter((int(input("Enter a : "))),(int(input("Enter b :")))) #calling the function
 
 
 ___________________________________________________________________________________________________________________________________________________________________
@@ -76,4 +76,5 @@ def gcdRecur(a, b):
        return a
     else:
        return gcdRecur(b,a%b)
+print(gcdRecur((int(input("Enter a : "))),(int(input("Enter b :")))) #calling the function
 
